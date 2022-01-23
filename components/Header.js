@@ -16,10 +16,10 @@ function Header() {
       <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
           <div className="flex flex-grow justify-evenly max-w-2xl">
               <HeaderNav title='HOME' Icon={HomeIcon }/>
-              <HeaderNav title='TRENDIND' Icon={LightningBoltIcon }/>
+              <HeaderNav title='TRENDING' Icon={LightningBoltIcon }/>
               <HeaderNav title='VERIFIED' Icon={BadgeCheckIcon }/>
               <HeaderNav title='COLLECTION' Icon={CollectionIcon }/>
-              <HeaderNav title='Search' Icon={SearchIcon}/>
+              <HeaderNav title='SEARCH' Icon={SearchIcon}/>
               <HeaderNav title='ACCOUNT' Icon={UserIcon}/>
           </div>
           {/*object contain doesnt brake the pixel of logo*/}
